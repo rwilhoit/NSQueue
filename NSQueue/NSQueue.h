@@ -16,7 +16,7 @@
 
 - (int)size;                        // Get size of queue
 - (void)printQueue;                 // Print queue to logs
-- (void)enqueue:(NSString*)object;  // Enqueue object in queue
+- (void)enqueue:(id)object;  // Enqueue object in queue
 - (void)clearQueue;                 // Clears the queue of all objects 
 - (id)dequeue;                      // Dequeue object from queue
 - (BOOL)isEmpty;                    // Check if queue is empty
