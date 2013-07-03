@@ -13,12 +13,10 @@
 }
 
 @property (nonatomic, retain) NSMutableArray *queue;    // The queue array
-@property (nonatomic) int length;                       // The length of the queue array
 
-// Variable declarations go here in brackets
 - (int)size;                        // Get size of queue
 - (void)printQueue;                 // Print queue to logs
-- (void)enqueue:(NSString*)object;         // Enqueue object in queue
+- (void)enqueue:(NSString*)object;  // Enqueue object in queue
 - (void)clearQueue;                 // Clears the queue of all objects 
 - (id)dequeue;                      // Dequeue object from queue
 - (BOOL)isEmpty;                    // Check if queue is empty

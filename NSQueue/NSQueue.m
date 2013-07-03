@@ -67,7 +67,7 @@
 }
 
 - (BOOL)isEmpty {
-    
+
     if([queue count] == 0)
     {
         return YES;
