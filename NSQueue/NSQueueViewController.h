@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NSQueue.h"
 
-@interface NSQueueViewController : UIViewController
+@interface NSQueueViewController : UIViewController {
+    NSQueue *queue;
+}
+
+- (IBAction)pressedTestQueue:(id)sender;
+
+@property (nonatomic,retain) NSQueue *queue;
 
 @end

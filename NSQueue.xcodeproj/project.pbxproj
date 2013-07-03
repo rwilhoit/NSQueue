@@ -18,6 +18,7 @@
 		35E833DA1783BD33001C3B5B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E833D91783BD33001C3B5B /* Default-568h@2x.png */; };
 		35E833DD1783BD33001C3B5B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E833DB1783BD33001C3B5B /* MainStoryboard.storyboard */; };
 		35E833E01783BD33001C3B5B /* NSQueueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E833DF1783BD33001C3B5B /* NSQueueViewController.m */; };
+		35E833E81783D92D001C3B5B /* NSQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E833E71783D92D001C3B5B /* NSQueue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		35E833DC1783BD33001C3B5B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		35E833DE1783BD33001C3B5B /* NSQueueViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSQueueViewController.h; sourceTree = "<group>"; };
 		35E833DF1783BD33001C3B5B /* NSQueueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSQueueViewController.m; sourceTree = "<group>"; };
+		35E833E61783D92D001C3B5B /* NSQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSQueue.h; sourceTree = "<group>"; };
+		35E833E71783D92D001C3B5B /* NSQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSQueue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				35E833DB1783BD33001C3B5B /* MainStoryboard.storyboard */,
 				35E833DE1783BD33001C3B5B /* NSQueueViewController.h */,
 				35E833DF1783BD33001C3B5B /* NSQueueViewController.m */,
+				35E833E61783D92D001C3B5B /* NSQueue.h */,
+				35E833E71783D92D001C3B5B /* NSQueue.m */,
 				35E833CA1783BD33001C3B5B /* Supporting Files */,
 			);
 			path = NSQueue;
@@ -177,6 +182,7 @@
 				35E833D01783BD33001C3B5B /* main.m in Sources */,
 				35E833D41783BD33001C3B5B /* NSQueueAppDelegate.m in Sources */,
 				35E833E01783BD33001C3B5B /* NSQueueViewController.m in Sources */,
+				35E833E81783D92D001C3B5B /* NSQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
